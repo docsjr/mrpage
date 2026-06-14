@@ -1307,3 +1307,23 @@ rgba(13, 13, 13, 0.82) 34%,
     padding-bottom: 82px;
   }
 }
+/* Remover mockup flutuante do Hero no mobile */
+@media (max-width: 768px) {
+  .hero-visual {
+    display: none;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 132px;
+    padding-bottom: 72px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+}
