@@ -1327,3 +1327,21 @@ rgba(13, 13, 13, 0.82) 34%,
     max-width: 100%;
   }
 }
+/* CTA final sem mockup */
+.final-grid-single {
+  grid-template-columns: 1fr;
+}
+
+.final-grid-single .final-copy {
+  max-width: 980px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.final-grid-single .eyebrow {
+  justify-content: center;
+}
+
+.final-grid-single .final-copy h2 {
+  margin-inline: auto;
+}
