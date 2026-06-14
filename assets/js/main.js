@@ -430,7 +430,7 @@ function renderFaqSection(content) {
 function renderFinalCtaSection(content) {
   return `
     <footer id="footer" class="section footer-cta section-dark">
-      <div class="container final-grid">
+      <div class="container final-grid final-grid-single">
         <div class="final-copy reveal">
           <span class="eyebrow">${escapeHTML(content.finalCta.eyebrow)}</span>
 
@@ -440,18 +440,6 @@ function renderFinalCtaSection(content) {
           </h2>
 
           ${createButton(content.finalCta.cta)}
-        </div>
-
-        <div class="final-mockup reveal">
-          <div class="ebook-float ebook-float-small" aria-label="Mockup do e-book Método Regular">
-            <div class="ebook-cover">
-              <div class="ebook-topline">Método</div>
-              <div class="ebook-title">Regular™</div>
-              <div class="ebook-subtitle">Saúde metabólica · Performance · Emagrecimento</div>
-              <div class="ebook-line"></div>
-              <div class="ebook-footer">Regular primeiro. Intensificar depois.</div>
-            </div>
-          </div>
         </div>
       </div>
     </footer>
