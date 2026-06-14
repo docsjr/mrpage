@@ -127,7 +127,7 @@ function renderHero(content) {
       <div class="ebook-image-wrap">
         <img
           class="ebook-image"
-          src="./assets/images/metodo-regular-cover.png"
+          src="./assets/images/metodo-regular-cover.png.png"
           alt="Capa visual do Método Regular com identidade premium"
         />
       </div>
